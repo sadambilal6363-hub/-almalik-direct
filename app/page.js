@@ -72,7 +72,7 @@ export default function Home() {
         <div className="heroCopy">
           <div className="eyebrow"><Sparkles size={15}/> بدون تعقيد — تواصل مباشر مع المالك</div>
           <h1>العقار المناسب.<br/><em>من المالك مباشرة.</em></h1>
-  <img src="/images/E87EB0E3-CA44-4BE5-A6E0-71A99F2.jpg" alt="صورة العقار" className="w-full rounded-2xl my-4" />
+  <img src="/images/E87EB0E3-CA44-4BE5-A6E0-71A99F2.jpg" alt="صورة الموقع" />
 
           <p>منصة تجمع الصناعيات، المحلات التجارية، المكاتب، المستودعات، السكني، الحوطات، المتاجر والأراضي الخالية في الإمارات، مع تواصل مباشر وبيانات واضحة.</p>
 
