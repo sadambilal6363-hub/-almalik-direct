@@ -72,7 +72,8 @@ export default function Home() {
         <div className="heroCopy">
           <div className="eyebrow"><Sparkles size={15}/> بدون تعقيد — تواصل مباشر مع المالك</div>
           <h1>العقار المناسب.<br/><em>من المالك مباشرة.</em></h1>
-  https://github.com/sadambilal6363-hub/-almalik-direct/blob/main/public/images/E87EB0E3-CA44-4BE5-A6E0-71A99F263764.png
+  <img src="/images/E87EB0E3-CA44-4BE5-A6E0-71A99F263764.png" alt="صورة الموقع" />
+
 
           <p>منصة تجمع الصناعيات، المحلات التجارية، المكاتب، المستودعات، السكني، الحوطات، المتاجر والأراضي الخالية في الإمارات، مع تواصل مباشر وبيانات واضحة.</p>
 
