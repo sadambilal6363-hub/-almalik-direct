@@ -235,3 +235,4 @@ export default function Home() {
     </main>
   );
 }
+<img src="/images/E87EB0E3-CA44-4BE5-A6E0-71A99F263764.png" alt="صورة الموقع" className="w-full h-auto rounded-2xl shadow-lg object-cover" />
