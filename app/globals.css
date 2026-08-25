@@ -29,4 +29,49 @@ a{color:inherit;text-decoration:none} button,input,select,textarea{font:inherit}
 .finalCta{background:linear-gradient(135deg,#58644f,#9b8f73);color:#fff;padding:95px 0}.finalInner{display:grid;grid-template-columns:1fr auto;gap:50px;align-items:center}.finalInner p{color:#ebeee8;max-width:760px;line-height:1.9}.ctaCircle{width:170px;height:170px;border-radius:50%;background:var(--lime);color:#111;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;font-weight:800}
 .footer{padding:55px 0 30px;display:grid;grid-template-columns:1.2fr .8fr;gap:30px}.footerBrand{font-size:24px;font-weight:800}.footer p{color:var(--muted)}.footerLinks{display:flex;justify-content:flex-end;gap:22px}.copy{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px;color:#91968f;font:700 10px "DM Sans";letter-spacing:1px}.floatingWhats{position:fixed;right:20px;bottom:20px;z-index:50;background:#111;color:#fff;border-radius:999px;padding:13px 17px;display:flex;gap:8px;align-items:center;font-weight:700}
 @media(max-width:900px){.navlinks,.navActions .dark{display:none}.menu{display:block}.mobileMenu{display:grid;position:fixed;z-index:30;top:76px;left:18px;right:18px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;gap:8px}.hero{grid-template-columns:1fr}.searchGrid{grid-template-columns:1fr 1fr}.catGrid{grid-template-columns:1fr 1fr}.listingGrid{grid-template-columns:1fr 1fr}.ownerGrid{grid-template-columns:1fr}.howGrid{grid-template-columns:1fr 1fr}.finalInner{grid-template-columns:1fr}}
+@media (max-width: 600px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .shell {
+    width: calc(100% - 24px);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero {
+    display: block;
+    min-height: auto;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin: 16px 0;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .searchPanel {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .searchGrid {
+    grid-template-columns: 1fr;
+  }
+}
 @media(max-width:600px){.shell{width:min(100% - 28px,1180px)}.nav{height:72px}.brand{font-size:19px}.navActions .plain{display:none}.hero{min-height:auto;padding:50px 0}.hero h1{font-size:54px;letter-spacing:-3px}.hero p{font-size:16px}.searchGrid{grid-template-columns:1fr}.heroVisual{height:400px}.metricGrid{grid-template-columns:1fr 1fr}.categories,.properties,.how,.faq{padding:80px 0}.catGrid{grid-template-columns:1fr 1fr}.listingGrid{grid-template-columns:1fr}.sectionHead.row{display:block}.filters{margin-top:18px}.owners{padding:80px 0}.formGrid{grid-template-columns:1fr}.howGrid{grid-template-columns:1fr}.footer{grid-template-columns:1fr}.footerLinks{justify-content:flex-start;flex-wrap:wrap}.floatingWhats span{display:none}.floatingWhats{width:52px;height:52px;padding:0;justify-content:center}}
