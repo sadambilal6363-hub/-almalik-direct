@@ -75,13 +75,9 @@ export default function Home() {
 <img 
   src="/images/DCDC10B3-4F46-4971-B009-2E7988C9F757.png" 
   alt="شعار الموقع" 
-  style={{ height: '40px', width: 'auto' }}
+  style={{ width: '130px', height: 'auto' }}
   className="object-contain"
 />
-
-
-
-
 
           <p>منصة تجمع الصناعيات، المحلات التجارية، المكاتب، المستودعات، السكني، الحوطات، المتاجر والأراضي الخالية في الإمارات، مع تواصل مباشر وبيانات واضحة.</p>
 
