@@ -72,11 +72,7 @@ export default function Home() {
         <div className="heroCopy">
           <div className="eyebrow"><Sparkles size={15}/> بدون تعقيد — تواصل مباشر مع المالك</div>
           <h1>هلوفيرا للعقارت.<br/><em>من المالك مباشرة.</em></h1>
-<img 
-  src="/images/DCDC10B3-4F46-4971-B009-2E7988C9F757.png" 
-  alt="شعار الموقع" 
-  style={{ width: '120px', height: 'auto', maxHeight: '45px', objectFit: 'contain' }} 
-  
+<img src="https://raw.githubusercontent.com/sadambilal6363-hub/-almalik-direct/main/app/D34DF3E5-4626-4620-93F7-E2EEB9470D74.png" alt="صورة" />
           <p>منصة تجمع الصناعيات، المحلات التجارية، المكاتب، المستودعات، السكني، الحوطات، المتاجر والأراضي الخالية في الإمارات، مع تواصل مباشر وبيانات واضحة.</p>
 
           <div className="searchPanel">
