@@ -227,7 +227,7 @@ export default function Home() {
         <div className="copy">© 2026 MIN ALMALIK DIRECT — NEXT.JS PLATFORM</div>
       </footer>
 
-      <a className="floatingWhats" href="https://wa.me/" aria-label="WhatsApp"><MessageCircle size={22}/><span>واتساب</span></a>
+      <a className="floatingWhats" href="https://wa.me/971588920359" aria-label="WhatsApp"><MessageCircle size={22}/><span>واتساب</span></a>
     </main>
   );
 }
