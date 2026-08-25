@@ -15,6 +15,7 @@ const categories = [
   ["حوطات", Fence, "/images/IMG_8833.png"],
   ["مزارع", LandPlot, "/images/IMG_8834.png"],
   ["صناعية", Factory, "/images/IMG_8835.png"],
+  ];
 
 const listings = [
   {title:"مستودع واسع جاهز للاستخدام", area:"الشارقة الصناعية 10", type:"مستودعات", size:"8,500 قدم²", price:"280,000 د.إ / سنوي", owner:"مالك مباشر", badge:"موثق"},
