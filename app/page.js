@@ -72,7 +72,13 @@ export default function Home() {
         <div className="heroCopy">
           <div className="eyebrow"><Sparkles size={15}/> بدون تعقيد — تواصل مباشر مع المالك</div>
           <h1>هلوفيرا للعقارت.<br/><em>من المالك مباشرة.</em></h1>
-<img src="/images/DCDC10B3-4F46-4971-B009-2E7988C9F757.png" alt="شعار الموقع" />
+<img 
+  src="/images/DCDC10B3-4F46-4971-B009-2E7988C9F757.png" 
+  alt="شعار الموقع" 
+  style={{ height: '40px', width: 'auto' }}
+  className="object-contain"
+/>
+
 
 
 
