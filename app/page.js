@@ -119,8 +119,9 @@ export default function Home() {
           <h2>كل نوع مساحة في مكانه الصحيح.</h2>
         </div>
         <div className="catGrid">
-          {categories.map(([name,Icon],i)=>(
-            <button key={name} className={`catCard ${activeCat===name?"selected":""}`} onClick={()=>setActiveCat(name)}>
+          {categories.map(([name, Icon, image], i) => (
+            <button key={name} className={`catCard ${activeCat===name?"selected":""}`} onClick={()=>setActiveCat(name)}><span className="num">{String(i+1).padStart(2,"0")}</span>
+  <img className="catImage" src={image} alt={name} />
               <span className="num">{String(i+1).padStart(2,"0")}</span>
               <div className="catIcon"><Icon size={25}/></div>
               <h3>{name}</h3><ArrowUpLeft size={19}/>
