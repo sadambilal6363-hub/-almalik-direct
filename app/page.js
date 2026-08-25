@@ -71,7 +71,7 @@ export default function Home() {
       <section className="hero shell" id="top">
         <div className="heroCopy">
           <div className="eyebrow"><Sparkles size={15}/> بدون تعقيد — تواصل مباشر مع المالك</div>
-          <h1>العقار المناسب.<br/><em>من المالك مباشرة.</em></h1>
+          <h1>هلوفيرا للعقارت.<br/><em>من المالك مباشرة.</em></h1>
 
 
 
