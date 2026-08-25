@@ -75,3 +75,11 @@ a{color:inherit;text-decoration:none} button,input,select,textarea{font:inherit}
   }
 }
 @media(max-width:600px){.shell{width:min(100% - 28px,1180px)}.nav{height:72px}.brand{font-size:19px}.navActions .plain{display:none}.hero{min-height:auto;padding:50px 0}.hero h1{font-size:54px;letter-spacing:-3px}.hero p{font-size:16px}.searchGrid{grid-template-columns:1fr}.heroVisual{height:400px}.metricGrid{grid-template-columns:1fr 1fr}.categories,.properties,.how,.faq{padding:80px 0}.catGrid{grid-template-columns:1fr 1fr}.listingGrid{grid-template-columns:1fr}.sectionHead.row{display:block}.filters{margin-top:18px}.owners{padding:80px 0}.formGrid{grid-template-columns:1fr}.howGrid{grid-template-columns:1fr}.footer{grid-template-columns:1fr}.footerLinks{justify-content:flex-start;flex-wrap:wrap}.floatingWhats span{display:none}.floatingWhats{width:52px;height:52px;padding:0;justify-content:center}}
+.catImage{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+  border-radius:18px;
+  display:block;
+  margin-bottom:12px;
+}
