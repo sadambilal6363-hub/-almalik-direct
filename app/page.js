@@ -15,6 +15,7 @@ const categories = [
   ["حوطات", Fence, "/images/IMG_8832.png"],
   ["مزارع", LandPlot, "/images/IMG_8829.png"],
   ["صناعية", Factory, "/images/IMG_8835.png"],
+  ["أراضي للاستثمار", LandPlot, "/images/IMG_8917.jpeg"],
 ];
 const listings = [
   {
