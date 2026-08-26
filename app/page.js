@@ -290,7 +290,43 @@ export default function Home() {
             </div>
           </div>
 
-          <form className="ownerForm" onSubmit={(e)=>{e.preventDefault();setSubmitted(true)}}>
+          <form
+  className="ownerForm"
+  onSubmit={(e) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+
+    const name = form.elements[0].value;
+    const phone = form.elements[1].value;
+    const type = form.elements[2].value;
+    const emirate = form.elements[3].value;
+    const size = form.elements[4].value;
+    const price = form.elements[5].value;
+    const description = form.elements[6].value;
+
+    const message = `
+طلب إضافة عقار جديد
+
+اسم المالك: ${name}
+رقم الهاتف: ${phone}
+نوع العقار: ${type}
+الإمارة: ${emirate}
+المساحة: ${size}
+السعر: ${price}
+الوصف: ${description}
+    `;
+
+    const whatsappNumber = "971588920359";
+
+    window.open(
+      `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
+
+    setSubmitted(true);
+  }}
+>
             <h3>إضافة عقار</h3>
             <div className="formGrid">
               <label>اسم المالك<input required placeholder="الاسم الكامل"/></label>
