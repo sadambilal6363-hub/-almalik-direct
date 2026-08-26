@@ -98,12 +98,18 @@ export default function Home() {
         </div>
 
         <div className="heroVisual">
-          <div className="gridMap"></div>
-          <div className="ownerBadge"><UserRound/><b>مالك مباشر</b><small>تواصل بدون وسيط</small></div>
-          <div className="pin p1"><MapPin/><span>مستودع</span></div>
-          <div className="pin p2"><MapPin/><span>محل</span></div>
-          <div className="pin p3"><MapPin/><span>حوطه</span></div>
-        </div>
+  <img
+    src="/images/D0D5804C-1764-45C6-A42E-E96388DF61EB.png"
+    alt="مالك مباشر - صناعية مليحة الذيد"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover",
+      borderRadius: "32px"
+    }}
+  />
+</div>
+
       </section>
 
       <section className="metrics">
