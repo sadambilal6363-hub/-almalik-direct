@@ -8,14 +8,15 @@ import {
   KeyRound, ShieldCheck, Sparkles, UserRound, UsersRound
 } from "lucide-react";
 const categories = [
-  ["مالك مباشر", UserRound, "/images/IMG_8829.png"],
-  ["مكاتب", BriefcaseBusiness, "/images/IMG_8830.png"],
-  ["مستودعات", Warehouse, "/images/IMG_8831.png"],
-  ["محلات تجارية", Store, "/images/IMG_8832.png"],
-  ["حوطات", Fence, "/images/IMG_8833.png"],
-  ["مزارع", LandPlot, "/images/IMG_8834.png"],
+  ["مالك مباشر", UserRound, "/images/IMG_8831.png"],
+  ["مكاتب", BriefcaseBusiness, "/images/IMG_8834.png"],
+  ["مستودعات", Warehouse, "/images/IMG_8833.png"],
+  ["محلات تجارية", Store, "/images/IMG_8830.png"],
+  ["حوطات", Fence, "/images/IMG_8832.png"],
+  ["مزارع", LandPlot, "/images/IMG_8829.png"],
   ["صناعية", Factory, "/images/IMG_8835.png"],
 ];
+
   
 const listings = [
   {title:"مستودع واسع جاهز للاستخدام", area:"الشارقة الصناعية 10", type:"مستودعات", size:"8,500 قدم²", price:"280,000 د.إ / سنوي", owner:"مالك مباشر", badge:"موثق"},
