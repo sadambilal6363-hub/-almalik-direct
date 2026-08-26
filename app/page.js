@@ -178,24 +178,29 @@ export default function Home() {
               <div
   style={{
     position: "absolute",
-    bottom: "2px",
-    left: "12px",
+    bottom: "0",
+    left: "0",
+    right: "0",
+    height: "46px",
+    background: "white",
     display: "flex",
     alignItems: "center",
-    gap: "4px"
+    justifyContent: "space-between",
+    padding: "0 14px",
+    boxSizing: "border-box"
   }}
 >
   <span
     style={{
       color: "#0a8cff",
-      fontSize: "14px",
+      fontSize: "15px",
       fontWeight: "700"
     }}
   >
     {name}
   </span>
 
-  <ArrowUpLeft size={13} color="#0a8cff" />
+  <ArrowUpLeft size={14} color="#0a8cff" />
 </div>
             </button>
           ))}
