@@ -23,7 +23,7 @@ const listings = [
     area: "الشارقة الصناعية 10",
     type: "مستودعات",
     size: "8,500 قدم²",
-    price: "280,000 د.إ / سنوي",
+    price: "اتصل للسعر",
     image: "/images/IMG_8910.jpeg"
   },
   {
@@ -31,7 +31,7 @@ const listings = [
     area: "دبي - القوز",
     type: "محلات تجارية",
     size: "1,250 قدم²",
-    price: "190,000 د.إ / سنوي",
+    price: "اتصل للسعر",
     image: "/images/IMG_8911.jpeg"
   },
   {
@@ -39,7 +39,7 @@ const listings = [
     area: "عجمان - الجرف الصناعية",
     type: "حوطات",
     size: "15,000 قدم²",
-    price: "165,000 د.إ / سنوي",
+    price: "اتصل للسعر",
     image: "/images/IMG_8919.jpeg"
   },
   {
@@ -47,7 +47,7 @@ const listings = [
     area: "أبوظبي - مصفح",
     type: "مكاتب",
     size: "2,100 قدم²",
-    price: "145,000 د.إ / سنوي",
+    price: "اتصل للسعر",
     image: "/images/IMG_8916.jpeg"
   },
   {
@@ -63,7 +63,7 @@ const listings = [
     area: "رأس الخيمة",
     type: "سكني",
     size: "24 غرفة",
-    price: "360,000 د.إ / سنوي",
+    price: "اتصل للسعر",
     image: "/images/IMG_8913.jpeg"
   },
   {
