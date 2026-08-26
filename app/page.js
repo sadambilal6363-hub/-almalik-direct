@@ -8,7 +8,7 @@ import {
   KeyRound, ShieldCheck, Sparkles, UserRound, UsersRound
 } from "lucide-react";
 const categories = [
-  ["مالك مباشر", UserRound, "/images/IMG_8831.png"],
+  ["سكني", HomeIcon, "/images/IMG_8831.png"],
   ["مكاتب", BriefcaseBusiness, "/images/IMG_8834.png"],
   ["مستودعات", Warehouse, "/images/IMG_8833.png"],
   ["محلات تجارية", Store, "/images/IMG_8830.png"],
