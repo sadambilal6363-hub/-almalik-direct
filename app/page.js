@@ -171,7 +171,17 @@ export default function Home() {
         </div>
         <div className="catGrid">
           {categories.map(([name, Icon, image], i) => (
-            <button key={name} className={`catCard ${activeCat===name?"selected":""}`} onClick={()=>setActiveCat(name)}><span className="num">{String(i+1).padStart(2,"0")}</span>
+            <button
+  key={name}
+  className={`catCard ${activeCat === name ? "selected" : ""}`}
+  style={{ position: "relative" }}
+  onClick={() => {
+    setActiveCat(name);
+    document
+      .getElementById("properties")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}
+>
   <img className="catImage" src={image} alt={name} />
               <span className="num">{String(i+1).padStart(2,"0")}</span>
               <div className="catIcon"><Icon size={25}/></div>
