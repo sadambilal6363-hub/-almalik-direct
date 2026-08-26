@@ -196,9 +196,20 @@ export default function Home() {
           {visible.map((item,i)=>(
             <article className="listing" key={item.title}>
               <div className={`propertyArt art${i%6}`}>
-                <span className="status">{item.badge}</span>
-                <span className="direct"><UserRound size={13}/>{item.owner}</span>
-              </div>
+  <img
+    src={item.image}
+    alt={item.title}
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "cover"
+    }}
+  />
+
+  <span className="status">{item.badge}</span>
+  <span className="direct"><UserRound size={13}/>{item.owner}</span>
+</div>
+                
               <div className="listingBody">
                 <div className="meta"><span><MapPin size={14}/>{item.area}</span><span>{item.size}</span></div>
                 <h3>{item.title}</h3>
