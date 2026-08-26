@@ -65,7 +65,7 @@ const listings = [
     size: "24 غرفة",
     price: "360,000 د.إ / سنوي",
     image: "/images/IMG_8913.jpeg"
-  }
+  },
   {
   title: "صناعية مليحة الذيد",
   area: "الشارقة - الذيد",
