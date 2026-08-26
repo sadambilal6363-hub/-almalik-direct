@@ -51,7 +51,7 @@ const listings = [
     image: "/images/IMG_8916.jpeg"
   },
   {
-    title: "مزرعة جاهزة للاستخدام",
+    title: "مزرعة جاهزة للبيع او الايجار",
     area: "أم القيوين",
     type: "مزارع",
     size: "32,000 قدم²",
@@ -59,7 +59,7 @@ const listings = [
     image: "/images/IMG_8912.jpeg"
   },
   {
-    title: "سكن منظم قريب من الصناعية",
+    title: "سكن منظم واقتصادي",
     area: "رأس الخيمة",
     type: "سكني",
     size: "24 غرفة",
