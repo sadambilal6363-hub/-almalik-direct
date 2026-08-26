@@ -175,14 +175,28 @@ export default function Home() {
   <img className="catImage" src={image} alt={name} />
               <span className="num">{String(i+1).padStart(2,"0")}</span>
               <div className="catIcon"><Icon size={25}/></div>
-              <ArrowUpLeft
-  size={15}
+              <div
   style={{
     position: "absolute",
-    bottom: "12px",
-    left: "12px"
+    bottom: "2px",
+    left: "12px",
+    display: "flex",
+    alignItems: "center",
+    gap: "4px"
   }}
-/>
+>
+  <span
+    style={{
+      color: "#0a8cff",
+      fontSize: "14px",
+      fontWeight: "700"
+    }}
+  >
+    {name}
+  </span>
+
+  <ArrowUpLeft size={13} color="#0a8cff" />
+</div>
             </button>
           ))}
         </div>
