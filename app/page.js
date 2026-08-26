@@ -66,6 +66,22 @@ const listings = [
     price: "360,000 د.إ / سنوي",
     image: "/images/IMG_8913.jpeg"
   }
+  {
+  title: "صناعية مليحة الذيد",
+  area: "الشارقة - الذيد",
+  type: "صناعية",
+  size: "12,000 قدم²",
+  price: "اتصل للسعر",
+  image: "/images/IMG_8968.jpeg"
+},
+{
+  title: "أرض استثمارية جاهزة",
+  area: "أم القيوين",
+  type: "أراضي للاستثمار",
+  size: "32,000 قدم²",
+  price: "اتصل للسعر",
+  image: "/images/D58F403E-6FCC-482D-83E1-2759AC020532.png"
+}
 ];
   
 
