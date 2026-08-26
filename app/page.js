@@ -14,7 +14,7 @@ const categories = [
   ["محلات تجارية", Store, "/images/IMG_8830.png"],
   ["حوطات", Fence, "/images/IMG_8832.png"],
   ["مزارع", LandPlot, "/images/IMG_8829.png"],
-  ["صناعية", Factory, "/images/IMG_8835.png"],
+  [" صناعيةمليحة", Factory, "/images/IMG_8835.png"],
 ];
 
   
