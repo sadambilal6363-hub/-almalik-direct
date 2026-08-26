@@ -184,7 +184,7 @@ export default function Home() {
       <section className="categories shell" id="categories">
         <div className="sectionHead">
           <span className="kicker">01 — الفئات</span>
-          <h2>كل نوع مساحة في مكانه الصحيح.</h2>
+          <h2>خطوتك نحو العقار المناسب تبدأ من هنا.</h2>
         </div>
         <div className="catGrid">
           {categories.map(([name, Icon, image], i) => (
