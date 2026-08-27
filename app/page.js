@@ -28,7 +28,7 @@ const listings = [
   },
   {
     title: "محل شارع رئيسي بواجهة ممتازة",
-    area: "دبي - القوز",
+    area: "الشارقة",
     type: "محلات تجارية",
     size: "1,250 قدم²",
     price: "اتصل للسعر",
@@ -36,7 +36,7 @@ const listings = [
   },
   {
     title: "حوطة مسورة للتخزين والمعدات",
-    area: "عجمان - الجرف الصناعية",
+    area: "الشارقة",
     type: "حوطات",
     size: "15,000 قدم²",
     price: "اتصل للسعر",
@@ -44,7 +44,7 @@ const listings = [
   },
   {
     title: "مكتب إداري جاهز للشركات",
-    area: "أبوظبي - مصفح",
+    area: "الشارقة",
     type: "مكاتب",
     size: "2,100 قدم²",
     price: "اتصل للسعر",
@@ -52,7 +52,7 @@ const listings = [
   },
   {
     title: "مزرعة جاهزة للبيع او الايجار",
-    area: "أم القيوين",
+    area: "الشارقة",
     type: "مزارع",
     size: "32,000 قدم²",
     price: "اتصل للسعر",
@@ -60,7 +60,7 @@ const listings = [
   },
   {
     title: "سكن منظم واقتصادي",
-    area: "رأس الخيمة",
+    area: "الشارقة",
     type: "سكني",
     size: "24 غرفة",
     price: "اتصل للسعر",
@@ -76,7 +76,7 @@ const listings = [
 },
 {
   title: "أرض استثمارية جاهزة",
-  area: "أم القيوين",
+  area: "الشارقة",
   type: "أراضي للاستثمار",
   size: "32,000 قدم²",
   price: "اتصل للسعر",
@@ -266,7 +266,7 @@ export default function Home() {
                 <strong>{item.price}</strong>
                 <div className="listingActions">
                   <a href="#contact">التفاصيل <ArrowLeft size={16}/></a>
-                  <a className="whatsMini" href="https://wa.me/"><MessageCircle size={16}/> تواصل مع المالك</a>
+                  <a className="whatsMini" href="https://wa.me/971589650192"><MessageCircle size={16}/> تواصل مع المالك</a>
                 </div>
               </div>
             </article>
