@@ -8,14 +8,14 @@ import {
   KeyRound, ShieldCheck, Sparkles, UserRound, UsersRound
 } from "lucide-react";
 const categories = [
-  ["سكني", HomeIcon, "/images/3B73EB21-E983-41C8-9C33-C9B1FEDFEDD5.png"],
-  ["مكاتب", BriefcaseBusiness, "/images/IMG_8834.png"],
-  ["مستودعات", Warehouse, "/images/IMG_8833.png"],
-  ["محلات تجارية", Store, "/images/IMG_8830.png"],
-  ["حوطات", Fence, "/images/IMG_8832.png"],
-  ["مزارع", LandPlot, "/images/IMG_8829.png"],
-  ["صناعيةمليحة", Factory, "/images/IMG_8835.png"],
-  ["أراضي للاستثمار", LandPlot, "/images/IMG_8917.jpeg"],
+  ["سكني", HomeIcon, "/images/3B73EB21-E983-41C8-9C33-C9B1FEDFEDD5.png", "/sharjah/residential"],
+["مكاتب", BriefcaseBusiness, "/images/IMG_8834.png", "/sharjah/offices"],
+["مستودعات", Warehouse, "/images/IMG_8833.png", "/sharjah/warehouses"],
+["محلات تجارية", Store, "/images/IMG_8830.png", "/sharjah/shops"],
+["حوطات", Fence, "/images/IMG_8832.png", "/sharjah/yards"],
+  ["مزارع", LandPlot, "/images/IMG_8829.png", "/sharjah/farms"],
+["صناعية مليحة", Factory, "/images/IMG_8835.png", "/sharjah/industrial"],
+["أراضي للاستثمار", LandPlot, "/images/IMG_8917.jpeg", "/sharjah/land"],
 ];
 const listings = [
   {
@@ -187,17 +187,14 @@ export default function Home() {
           <h2>خطوتك نحو العقار المناسب تبدأ من هنا.</h2>
         </div>
         <div className="catGrid">
-          {categories.map(([name, Icon, image], i) => (
+          {categories.map(([name, Icon, image, href]) => (
             <button
   key={name}
   className={`catCard ${activeCat === name ? "selected" : ""}`}
   style={{ position: "relative" }}
   onClick={() => {
-    setActiveCat(name);
-    document
-      .getElementById("properties")
-      ?.scrollIntoView({ behavior: "smooth" });
-  }}
+  window.location.href = href;
+}}
 >
   <img className="catImage" src={image} alt={name} />
               <span className="num">{String(i+1).padStart(2,"0")}</span>
