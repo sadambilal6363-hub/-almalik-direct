@@ -187,7 +187,7 @@ export default function Home() {
           <h2>خطوتك نحو العقار المناسب تبدأ من هنا.</h2>
         </div>
         <div className="catGrid">
-          {categories.map(([name, Icon, image, href]) => (
+          {categories.map(([name, Icon, image, href], i) => (
             <button
   key={name}
   className={`catCard ${activeCat === name ? "selected" : ""}`}
