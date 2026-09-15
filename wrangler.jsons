@@ -1,0 +1,16 @@
+{
+  "name": "almalikdirectworkes", // لاحظ الاسم الموجود في لوحة التحكم لديك (مكتوب workes وليس workers)
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "almalikdirectworkes" // يجب أن يطابق هذا الاسم حقل "name" أعلاه تماماً
+    }
+  ]
+}
