@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://haloveradigital.com";
+const baseUrl = "https://haloveraproperties.com";
 
   return [
     {
