@@ -1,0 +1,32 @@
+/* Mobile hero: show the existing office team image first, then the copy/search. */
+@media (max-width: 600px) {
+  .hero {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 22px !important;
+    padding-top: 18px !important;
+  }
+
+  .heroVisual {
+    order: -1 !important;
+    width: 100% !important;
+    height: 330px !important;
+    min-height: 330px !important;
+    border-radius: 26px !important;
+    overflow: hidden !important;
+  }
+
+  .heroVisual img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+    border-radius: 26px !important;
+  }
+
+  .heroCopy {
+    order: 1 !important;
+    width: 100% !important;
+  }
+}
