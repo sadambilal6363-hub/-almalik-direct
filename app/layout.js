@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./mobile-hero.css";
 
 export const metadata = {
   title: "من المالك مباشرة | عقارات ومساحات في الإمارات",
