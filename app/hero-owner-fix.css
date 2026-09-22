@@ -1,0 +1,36 @@
+/* Hero presentation: office team first, owner image immediately below */
+.heroVisual {
+  background-image: url('/images/IMG_8834.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.heroVisual > img {
+  opacity: 0 !important;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  width: 100%;
+  min-height: 430px;
+  margin-top: 28px;
+  border-radius: 32px;
+  background: url('/images/D0D5804C-1764-45C6-A42E-E96388DF61EB.png') center/cover no-repeat;
+  box-shadow: 0 18px 48px rgba(28, 36, 31, .10);
+}
+
+@media (max-width: 760px) {
+  .heroVisual {
+    min-height: 390px !important;
+    background-position: center !important;
+  }
+
+  .hero::after {
+    min-height: 360px;
+    margin-top: 18px;
+    border-radius: 24px;
+    background-position: center top;
+  }
+}
