@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowUpLeft, BadgeCheck, Check, ChevronDown, Factory, Fence,
 const PHONE = "971553404293";
 const categories = [
   ["سكني", HomeIcon, "/images/IMG_0851.jpeg", "/sharjah/residential"],
-  ["مكاتب", BriefcaseBusiness, "/images/IMG_8834.png", "/sharjah/offices"],
+  ["مكاتب", BriefcaseBusiness, "/images/105664AE-F9CD-48A0-A9B4-155C62BE1AF0.png", "/sharjah/offices"],
   ["مستودعات", Warehouse, "/images/IMG_8833.png", "/sharjah/warehouses"],
   ["محلات تجارية", Store, "/images/IMG_8830.png", "/sharjah/shops"],
   ["حوطات", Fence, "/images/IMG_8832.png", "/sharjah/yards"],
